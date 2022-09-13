@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B7E45C628D04F9D00DBD034 /* BaseURLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7E45C528D04F9D00DBD034 /* BaseURLTests.swift */; };
+		0B7E45C828D0502900DBD034 /* head-meta-base.html in Resources */ = {isa = PBXBuildFile; fileRef = 0B7E45C728D0502900DBD034 /* head-meta-base.html */; };
 		1F8164ED26287866000F2905 /* VideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8164EC26287866000F2905 /* VideoTests.swift */; };
 		68074FFA1F23B6C900649DE6 /* head-meta-icon.html in Resources */ = {isa = PBXBuildFile; fileRef = 68074FF91F23B6C900649DE6 /* head-meta-icon.html */; };
 		68074FFB1F23BB1100649DE6 /* head-meta-icon.html in Resources */ = {isa = PBXBuildFile; fileRef = 68074FF91F23B6C900649DE6 /* head-meta-icon.html */; };
@@ -149,6 +151,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B7E45C528D04F9D00DBD034 /* BaseURLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseURLTests.swift; sourceTree = "<group>"; };
+		0B7E45C728D0502900DBD034 /* head-meta-base.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "head-meta-base.html"; sourceTree = "<group>"; };
 		1F8164EC26287866000F2905 /* VideoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTests.swift; sourceTree = "<group>"; };
 		68074FF91F23B6C900649DE6 /* head-meta-icon.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "head-meta-icon.html"; sourceTree = "<group>"; };
 		686E58DE1F22416D000C2A33 /* IconTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconTests.swift; sourceTree = "<group>"; };
@@ -265,6 +269,7 @@
 				985DCEB71D2BFE4100B40D76 /* body-image-single.html */,
 				985DCEB81D2BFE4100B40D76 /* body-image-gallery.html */,
 				985DCEB11D2BFD3400B40D76 /* head-meta-twitter.html */,
+				0B7E45C728D0502900DBD034 /* head-meta-base.html */,
 				985DCEB21D2BFD3400B40D76 /* head-meta-meta.html */,
 				985DCEB31D2BFD3400B40D76 /* head-meta-facebook.html */,
 				68074FF91F23B6C900649DE6 /* head-meta-icon.html */,
@@ -358,6 +363,7 @@
 		98DC53391D1D73DB001134E3 /* SwiftLinkPreviewTests */ = {
 			isa = PBXGroup;
 			children = (
+				0B7E45C528D04F9D00DBD034 /* BaseURLTests.swift */,
 				98B5ED491D3E7DC600AEBD54 /* HugeTests.swift */,
 				985DCEC81D2C029700B40D76 /* BodyTests.swift */,
 				985DCEC61D2C026000B40D76 /* ImageTests.swift */,
@@ -641,6 +647,7 @@
 				985DCEBF1D2BFFAF00B40D76 /* body-text-span.html in Resources */,
 				985DCEC01D2BFFAF00B40D76 /* body-text-p.html in Resources */,
 				985DCEC11D2BFFAF00B40D76 /* body-text-div.html in Resources */,
+				0B7E45C828D0502900DBD034 /* head-meta-base.html in Resources */,
 				985DCEB91D2BFE4100B40D76 /* body-image-single.html in Resources */,
 				985DCEB61D2BFD3400B40D76 /* head-meta-facebook.html in Resources */,
 				986D5BE71D33E0FD0025555F /* head-title.html in Resources */,
@@ -740,6 +747,7 @@
 				986D5BE51D33DFE60025555F /* TitleTests.swift in Sources */,
 				985DCEC71D2C026000B40D76 /* ImageTests.swift in Sources */,
 				988B48D81D2C3C3D0040A4AD /* Constants.swift in Sources */,
+				0B7E45C628D04F9D00DBD034 /* BaseURLTests.swift in Sources */,
 				9272A10D1E2EF0E600F9F17E /* Regex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

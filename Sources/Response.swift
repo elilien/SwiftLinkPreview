@@ -10,6 +10,7 @@ import Foundation
 
 public struct Response {
     
+    public internal(set) var baseURL: String?
     public internal(set) var url: URL?
     public internal(set) var finalUrl: URL?
     public internal(set) var canonicalUrl: String?
